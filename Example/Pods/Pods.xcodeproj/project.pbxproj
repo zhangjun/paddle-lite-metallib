@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0507306857B378F742D3552ECECFD9CD /* Pods-PaddleLiteMetalLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7E025C7494FF3D52D27F64495935CC /* Pods-PaddleLiteMetalLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D23B7D19B7C20C15E1FF05A6BFF3F1 /* PaddleLiteMetalLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9042525AA4B8EC4660B7F4E78E02971 /* PaddleLiteMetalLib-dummy.m */; };
+		1D21225F2D5040440F2DA74B1BEDE01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2AF13965119FB7BB96A59DB1326CDE1A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5C46DFC19A6D30C7A000A9E8F4EB42 /* ReplaceMe.m */; };
+		3FC4428372744D1BB66F15310BD44C9E /* Pods-PaddleLiteMetalLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCC907352A96C1BABE8B46800584E03 /* Pods-PaddleLiteMetalLib_Tests-dummy.m */; };
+		66B9C04098FAFE751EB823FF7F579B82 /* Pods-PaddleLiteMetalLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2953BB1584904DB722FD10E9D0E8CC4 /* Pods-PaddleLiteMetalLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E17039FA36E53D7CCA61EC17E871AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AAB2656AE975C984CB5CAF8D57D63A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CF1C7C198812A89A938E4A082DE99133 /* Pods-PaddleLiteMetalLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6946644B720E8E38334B7FFC9A846D /* Pods-PaddleLiteMetalLib_Example-dummy.m */; };
+		EA12404BA0488043B01CE1D17AABC37E /* PaddleLiteMetalLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A103DC2D739B7240BB90FE865A7C06 /* PaddleLiteMetalLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36651ED8E0055BCEEF6230B31F270348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A14FC74962261F114F8564E615BB4A;
+			remoteInfo = "Pods-PaddleLiteMetalLib_Example";
+		};
+		9FE92902974DEFE52F3D3686B21DB0D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A202D759DE939350906A43F5CB3B10D;
+			remoteInfo = PaddleLiteMetalLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041BAA089AF14CA32C0DBA7BCF009579 /* Pods-PaddleLiteMetalLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaddleLiteMetalLib_Example.modulemap"; sourceTree = "<group>"; };
+		0C4FB15110572E7B64ABBD6E09899AD1 /* PaddleLiteMetalLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaddleLiteMetalLib-prefix.pch"; sourceTree = "<group>"; };
+		0F7E025C7494FF3D52D27F64495935CC /* Pods-PaddleLiteMetalLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaddleLiteMetalLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F91C1E5DAE9DC74A70FBE40EC4A7DBE /* Pods-PaddleLiteMetalLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddleLiteMetalLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1757D1F3134DDA132A4DA637CBE15DD7 /* PaddleLiteMetalLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaddleLiteMetalLib.modulemap; sourceTree = "<group>"; };
+		1B1F8B9BCFC7FE59045A784B2FCC96BA /* PaddleLiteMetalLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PaddleLiteMetalLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C929164A27F823D0C3E70C977F2A86C /* PaddleLiteMetalLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaddleLiteMetalLib; path = PaddleLiteMetalLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C1A618A79FE7F127B32946B47280CA /* Pods-PaddleLiteMetalLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddleLiteMetalLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F81267A862F8174E47E383B531A8EB6 /* Pods-PaddleLiteMetalLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaddleLiteMetalLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6904523141F4404DE2449922B05A1EE9 /* Pods-PaddleLiteMetalLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddleLiteMetalLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		69F4D25EE7FB495B0DD7608F68CED465 /* PaddleLiteMetalLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaddleLiteMetalLib.release.xcconfig; sourceTree = "<group>"; };
+		6B7FF60F0099F4C35F20E251100B90B2 /* Pods-PaddleLiteMetalLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddleLiteMetalLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C60666871A4C1017B63EECFE7884F27 /* Pods-PaddleLiteMetalLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddleLiteMetalLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79B37B8CAAE560B82118CDE09A077146 /* Pods-PaddleLiteMetalLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddleLiteMetalLib_Example-Info.plist"; sourceTree = "<group>"; };
+		9138368E6B7724B8B2105FF2739B9C1F /* PaddleLiteMetalLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaddleLiteMetalLib.debug.xcconfig; sourceTree = "<group>"; };
+		96ED065D5ACB2B530BE1993140121C5F /* Pods-PaddleLiteMetalLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaddleLiteMetalLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B8624B70BD700CAB0CED3F083F5CEA9 /* Pods-PaddleLiteMetalLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PaddleLiteMetalLib_Tests"; path = Pods_PaddleLiteMetalLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2953BB1584904DB722FD10E9D0E8CC4 /* Pods-PaddleLiteMetalLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaddleLiteMetalLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD6946644B720E8E38334B7FFC9A846D /* Pods-PaddleLiteMetalLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaddleLiteMetalLib_Example-dummy.m"; sourceTree = "<group>"; };
+		B587C33D754808D05B81E127985536F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD4AB80EB6618570721D4BF5AF52B406 /* Pods-PaddleLiteMetalLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PaddleLiteMetalLib_Example"; path = Pods_PaddleLiteMetalLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62495C02102C055E9DA4F5254083841 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0993542C5DC8E0ED285F04C56FF1C39 /* Pods-PaddleLiteMetalLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaddleLiteMetalLib_Tests.modulemap"; sourceTree = "<group>"; };
+		D4A103DC2D739B7240BB90FE865A7C06 /* PaddleLiteMetalLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaddleLiteMetalLib-umbrella.h"; sourceTree = "<group>"; };
+		D9042525AA4B8EC4660B7F4E78E02971 /* PaddleLiteMetalLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaddleLiteMetalLib-dummy.m"; sourceTree = "<group>"; };
+		DD5C46DFC19A6D30C7A000A9E8F4EB42 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PaddleLiteMetalLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E908E10FD61A701CC6E4E2736A1A8DCC /* Pods-PaddleLiteMetalLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddleLiteMetalLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9CF9D0154D0FEE4BE3158B13BC9DA5C /* Pods-PaddleLiteMetalLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaddleLiteMetalLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECCC907352A96C1BABE8B46800584E03 /* Pods-PaddleLiteMetalLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaddleLiteMetalLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9330FCCC9C8945F883D88CD20D736C9 /* Pods-PaddleLiteMetalLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddleLiteMetalLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB02ACEAB5E65F745F6A915897D97E61 /* PaddleLiteMetalLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaddleLiteMetalLib-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2791845AD98BD83F79A0B94C69C5800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB2656AE975C984CB5CAF8D57D63A15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA47357A23868F4304132E82EB33653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D21225F2D5040440F2DA74B1BEDE01D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50B04B72A5D258DABED1A044DC83B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E17039FA36E53D7CCA61EC17E871AFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3224B7AB90B135D5E1473BF7FE4726 /* Pods-PaddleLiteMetalLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				041BAA089AF14CA32C0DBA7BCF009579 /* Pods-PaddleLiteMetalLib_Example.modulemap */,
+				96ED065D5ACB2B530BE1993140121C5F /* Pods-PaddleLiteMetalLib_Example-acknowledgements.markdown */,
+				6904523141F4404DE2449922B05A1EE9 /* Pods-PaddleLiteMetalLib_Example-acknowledgements.plist */,
+				AD6946644B720E8E38334B7FFC9A846D /* Pods-PaddleLiteMetalLib_Example-dummy.m */,
+				4F81267A862F8174E47E383B531A8EB6 /* Pods-PaddleLiteMetalLib_Example-frameworks.sh */,
+				79B37B8CAAE560B82118CDE09A077146 /* Pods-PaddleLiteMetalLib_Example-Info.plist */,
+				0F7E025C7494FF3D52D27F64495935CC /* Pods-PaddleLiteMetalLib_Example-umbrella.h */,
+				E908E10FD61A701CC6E4E2736A1A8DCC /* Pods-PaddleLiteMetalLib_Example.debug.xcconfig */,
+				0F91C1E5DAE9DC74A70FBE40EC4A7DBE /* Pods-PaddleLiteMetalLib_Example.release.xcconfig */,
+			);
+			name = "Pods-PaddleLiteMetalLib_Example";
+			path = "Target Support Files/Pods-PaddleLiteMetalLib_Example";
+			sourceTree = "<group>";
+		};
+		33D80651B691B3702B3A04424801D6A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3224B7AB90B135D5E1473BF7FE4726 /* Pods-PaddleLiteMetalLib_Example */,
+				B80414399945DA2B588461764D0369B5 /* Pods-PaddleLiteMetalLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4309B193A64A8E01CFEE85CCD7212035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C929164A27F823D0C3E70C977F2A86C /* PaddleLiteMetalLib */,
+				BD4AB80EB6618570721D4BF5AF52B406 /* Pods-PaddleLiteMetalLib_Example */,
+				9B8624B70BD700CAB0CED3F083F5CEA9 /* Pods-PaddleLiteMetalLib_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8CC38D0122EE71D4DD24CB0FB6943132 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B587C33D754808D05B81E127985536F5 /* LICENSE */,
+				1B1F8B9BCFC7FE59045A784B2FCC96BA /* PaddleLiteMetalLib.podspec */,
+				C62495C02102C055E9DA4F5254083841 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B80414399945DA2B588461764D0369B5 /* Pods-PaddleLiteMetalLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0993542C5DC8E0ED285F04C56FF1C39 /* Pods-PaddleLiteMetalLib_Tests.modulemap */,
+				E9CF9D0154D0FEE4BE3158B13BC9DA5C /* Pods-PaddleLiteMetalLib_Tests-acknowledgements.markdown */,
+				27C1A618A79FE7F127B32946B47280CA /* Pods-PaddleLiteMetalLib_Tests-acknowledgements.plist */,
+				ECCC907352A96C1BABE8B46800584E03 /* Pods-PaddleLiteMetalLib_Tests-dummy.m */,
+				6C60666871A4C1017B63EECFE7884F27 /* Pods-PaddleLiteMetalLib_Tests-Info.plist */,
+				A2953BB1584904DB722FD10E9D0E8CC4 /* Pods-PaddleLiteMetalLib_Tests-umbrella.h */,
+				F9330FCCC9C8945F883D88CD20D736C9 /* Pods-PaddleLiteMetalLib_Tests.debug.xcconfig */,
+				6B7FF60F0099F4C35F20E251100B90B2 /* Pods-PaddleLiteMetalLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-PaddleLiteMetalLib_Tests";
+			path = "Target Support Files/Pods-PaddleLiteMetalLib_Tests";
+			sourceTree = "<group>";
+		};
+		C8D31A6BDB5B93D33DD0DA921673266D /* PaddleLiteMetalLib */ = {
+			isa = PBXGroup;
+			children = (
+				DD5C46DFC19A6D30C7A000A9E8F4EB42 /* ReplaceMe.m */,
+				8CC38D0122EE71D4DD24CB0FB6943132 /* Pod */,
+				D90C09689E329869BB096357A1FD7547 /* Support Files */,
+			);
+			name = PaddleLiteMetalLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E1E0AF936399236C97947C3836B4BBD1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4309B193A64A8E01CFEE85CCD7212035 /* Products */,
+				33D80651B691B3702B3A04424801D6A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90C09689E329869BB096357A1FD7547 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1757D1F3134DDA132A4DA637CBE15DD7 /* PaddleLiteMetalLib.modulemap */,
+				D9042525AA4B8EC4660B7F4E78E02971 /* PaddleLiteMetalLib-dummy.m */,
+				FB02ACEAB5E65F745F6A915897D97E61 /* PaddleLiteMetalLib-Info.plist */,
+				0C4FB15110572E7B64ABBD6E09899AD1 /* PaddleLiteMetalLib-prefix.pch */,
+				D4A103DC2D739B7240BB90FE865A7C06 /* PaddleLiteMetalLib-umbrella.h */,
+				9138368E6B7724B8B2105FF2739B9C1F /* PaddleLiteMetalLib.debug.xcconfig */,
+				69F4D25EE7FB495B0DD7608F68CED465 /* PaddleLiteMetalLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PaddleLiteMetalLib";
+			sourceTree = "<group>";
+		};
+		E1E0AF936399236C97947C3836B4BBD1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D31A6BDB5B93D33DD0DA921673266D /* PaddleLiteMetalLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		531433C8545790BFFA10BEAC6AB91867 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA12404BA0488043B01CE1D17AABC37E /* PaddleLiteMetalLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89086268EA0E4EAFACE11628EF96466A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0507306857B378F742D3552ECECFD9CD /* Pods-PaddleLiteMetalLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061E4654964A15D913964CD7B797AB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9C04098FAFE751EB823FF7F579B82 /* Pods-PaddleLiteMetalLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A202D759DE939350906A43F5CB3B10D /* PaddleLiteMetalLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D537EC8A34231D32EB28500BCEB46D9 /* Build configuration list for PBXNativeTarget "PaddleLiteMetalLib" */;
+			buildPhases = (
+				531433C8545790BFFA10BEAC6AB91867 /* Headers */,
+				6AC477D95E835CA5761867B6CCAD25D0 /* Sources */,
+				2791845AD98BD83F79A0B94C69C5800F /* Frameworks */,
+				53C2795AA352E51B208979219740C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaddleLiteMetalLib;
+			productName = PaddleLiteMetalLib;
+			productReference = 1C929164A27F823D0C3E70C977F2A86C /* PaddleLiteMetalLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		90A14FC74962261F114F8564E615BB4A /* Pods-PaddleLiteMetalLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F551002285BF3B3BBC0A5C9276EEB29 /* Build configuration list for PBXNativeTarget "Pods-PaddleLiteMetalLib_Example" */;
+			buildPhases = (
+				89086268EA0E4EAFACE11628EF96466A /* Headers */,
+				79BFE3B09CF8A0229361237D0E4ED998 /* Sources */,
+				7DA47357A23868F4304132E82EB33653 /* Frameworks */,
+				920A930089477E860C67EB5DBAE4EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C580EB0997D4C29557E2F144BC015072 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaddleLiteMetalLib_Example";
+			productName = Pods_PaddleLiteMetalLib_Example;
+			productReference = BD4AB80EB6618570721D4BF5AF52B406 /* Pods-PaddleLiteMetalLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89841A6BB995DBE65465265ECF5CD02 /* Pods-PaddleLiteMetalLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D6B34681BAC669BCAFE561EDCC0F5B /* Build configuration list for PBXNativeTarget "Pods-PaddleLiteMetalLib_Tests" */;
+			buildPhases = (
+				B061E4654964A15D913964CD7B797AB8 /* Headers */,
+				98CD497B72E4135500B956FFE4E20CC6 /* Sources */,
+				D50B04B72A5D258DABED1A044DC83B7E /* Frameworks */,
+				FE530D2C8E60CD965AD91F816F0865B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27E61142F1A91F356C52EE95FE28CBE /* PBXTargetDependency */,
+			);
+			name = "Pods-PaddleLiteMetalLib_Tests";
+			productName = Pods_PaddleLiteMetalLib_Tests;
+			productReference = 9B8624B70BD700CAB0CED3F083F5CEA9 /* Pods-PaddleLiteMetalLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4309B193A64A8E01CFEE85CCD7212035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A202D759DE939350906A43F5CB3B10D /* PaddleLiteMetalLib */,
+				90A14FC74962261F114F8564E615BB4A /* Pods-PaddleLiteMetalLib_Example */,
+				A89841A6BB995DBE65465265ECF5CD02 /* Pods-PaddleLiteMetalLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C2795AA352E51B208979219740C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920A930089477E860C67EB5DBAE4EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE530D2C8E60CD965AD91F816F0865B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AC477D95E835CA5761867B6CCAD25D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D23B7D19B7C20C15E1FF05A6BFF3F1 /* PaddleLiteMetalLib-dummy.m in Sources */,
+				2AF13965119FB7BB96A59DB1326CDE1A /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BFE3B09CF8A0229361237D0E4ED998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1C7C198812A89A938E4A082DE99133 /* Pods-PaddleLiteMetalLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD497B72E4135500B956FFE4E20CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4428372744D1BB66F15310BD44C9E /* Pods-PaddleLiteMetalLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27E61142F1A91F356C52EE95FE28CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PaddleLiteMetalLib_Example";
+			target = 90A14FC74962261F114F8564E615BB4A /* Pods-PaddleLiteMetalLib_Example */;
+			targetProxy = 36651ED8E0055BCEEF6230B31F270348 /* PBXContainerItemProxy */;
+		};
+		C580EB0997D4C29557E2F144BC015072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaddleLiteMetalLib;
+			target = 2A202D759DE939350906A43F5CB3B10D /* PaddleLiteMetalLib */;
+			targetProxy = 9FE92902974DEFE52F3D3686B21DB0D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		483BE89A3390CB12B15FFED01538C8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9330FCCC9C8945F883D88CD20D736C9 /* Pods-PaddleLiteMetalLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Tests/Pods-PaddleLiteMetalLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Tests/Pods-PaddleLiteMetalLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		863B186051BA0EF825AA87BA32C7F0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9138368E6B7724B8B2105FF2739B9C1F /* PaddleLiteMetalLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib.modulemap";
+				PRODUCT_MODULE_NAME = PaddleLiteMetalLib;
+				PRODUCT_NAME = PaddleLiteMetalLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4406CE1107D5740E23DB78AE705DE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F4D25EE7FB495B0DD7608F68CED465 /* PaddleLiteMetalLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaddleLiteMetalLib/PaddleLiteMetalLib.modulemap";
+				PRODUCT_MODULE_NAME = PaddleLiteMetalLib;
+				PRODUCT_NAME = PaddleLiteMetalLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E7AF6F38F910F32C10FA60E523CDCC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7FF60F0099F4C35F20E251100B90B2 /* Pods-PaddleLiteMetalLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Tests/Pods-PaddleLiteMetalLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Tests/Pods-PaddleLiteMetalLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF9EADDB1FECAF53B4A7FD72B75A37E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E908E10FD61A701CC6E4E2736A1A8DCC /* Pods-PaddleLiteMetalLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Example/Pods-PaddleLiteMetalLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Example/Pods-PaddleLiteMetalLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F543BEE8D6A16F138B42F253AC1138EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F91C1E5DAE9DC74A70FBE40EC4A7DBE /* Pods-PaddleLiteMetalLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Example/Pods-PaddleLiteMetalLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddleLiteMetalLib_Example/Pods-PaddleLiteMetalLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D6B34681BAC669BCAFE561EDCC0F5B /* Build configuration list for PBXNativeTarget "Pods-PaddleLiteMetalLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BE89A3390CB12B15FFED01538C8E0 /* Debug */,
+				E7AF6F38F910F32C10FA60E523CDCC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D537EC8A34231D32EB28500BCEB46D9 /* Build configuration list for PBXNativeTarget "PaddleLiteMetalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863B186051BA0EF825AA87BA32C7F0C6 /* Debug */,
+				A4406CE1107D5740E23DB78AE705DE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F551002285BF3B3BBC0A5C9276EEB29 /* Build configuration list for PBXNativeTarget "Pods-PaddleLiteMetalLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9EADDB1FECAF53B4A7FD72B75A37E1 /* Debug */,
+				F543BEE8D6A16F138B42F253AC1138EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

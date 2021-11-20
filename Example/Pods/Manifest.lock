@@ -1,0 +1,16 @@
+PODS:
+  - PaddleLiteMetalLib (0.1.0)
+
+DEPENDENCIES:
+  - PaddleLiteMetalLib (from `../`)
+
+EXTERNAL SOURCES:
+  PaddleLiteMetalLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaddleLiteMetalLib: 150e65593310a27a13664577423ad49762a59357
+
+PODFILE CHECKSUM: fe031be5c1197bc0a5718cdcd588d5a46059f90b
+
+COCOAPODS: 1.11.2

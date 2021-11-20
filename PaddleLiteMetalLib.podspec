@@ -21,22 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ewalker@live.cn/PaddleLiteMetalLib'
+  s.homepage         = 'https://github.com/zhangjun/PaddleLiteMetalLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ewalker@live.cn' => 'ewalker@live.cn' }
-  s.source           = { :git => 'https://github.com/ewalker@live.cn/PaddleLiteMetalLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://paddlelite-demo.bj.bcebos.com/libs/ios-gpu/paddle_lite_libs_v2_10_rc.tar.gz'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PaddleLiteMetalLib/Classes/**/*'
+  s.requires_arc  = true
   
   # s.resource_bundles = {
   #   'PaddleLiteMetalLib' => ['PaddleLiteMetalLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.vendored_libraries = 'Pod/Classes/**/*.h'
+  s.frameworks = 'AVFoundation', 'Metal', 'MetalPerformanceShaders'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

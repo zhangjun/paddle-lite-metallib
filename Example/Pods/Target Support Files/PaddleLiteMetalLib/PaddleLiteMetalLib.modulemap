@@ -1,0 +1,6 @@
+framework module PaddleLiteMetalLib {
+  umbrella header "PaddleLiteMetalLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

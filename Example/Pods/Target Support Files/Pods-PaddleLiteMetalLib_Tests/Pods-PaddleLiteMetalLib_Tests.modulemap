@@ -1,0 +1,6 @@
+framework module Pods_PaddleLiteMetalLib_Tests {
+  umbrella header "Pods-PaddleLiteMetalLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
