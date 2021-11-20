@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PaddleLiteMetalLib_Example' do
+  pod 'PaddleLiteMetalLib', :path => '../'
+
+  target 'PaddleLiteMetalLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
