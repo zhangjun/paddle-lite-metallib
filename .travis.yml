@@ -4,6 +4,7 @@
 # * https://docs.travis-ci.com/user/reference/osx/
 
 osx_image: xcode13.1
+os: osx
 language: objective-c
 # cache: cocoapods
 # podfile: Example/Podfile
