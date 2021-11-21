@@ -1,6 +1,7 @@
 # references:
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
+# * https://docs.travis-ci.com/user/reference/osx/
 
 osx_image: xcode13.1
 language: objective-c
@@ -10,5 +11,5 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PaddleLiteMetalLib.xcworkspace -scheme PaddleLiteMetalLib-Example -sdk iphonesimulator13.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PaddleLiteMetalLib.xcworkspace -scheme PaddleLiteMetalLib-Example -sdk iphonesimulator14.5 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint --allow-warnings
